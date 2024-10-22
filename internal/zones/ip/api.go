@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/brianshea2/addr.tools/internal/dnsutil"
-	"github.com/brianshea2/addr.tools/internal/ttlstore"
+	"internal/dnsutil"
+	"internal/ttlstore"
 	"github.com/miekg/dns"
 	"golang.org/x/time/rate"
 )
